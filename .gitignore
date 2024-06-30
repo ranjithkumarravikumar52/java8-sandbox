@@ -51,6 +51,5 @@ build.properties
 build/
 
 # Visual Studio Code specific files to ignore
-.vscode/
-!/.vscode/settings.json
-!/.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/extensions.json
