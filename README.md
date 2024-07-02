@@ -6,120 +6,113 @@ Environment
 - [x] recommended extension for future me or any other users
 - [x] formulate a roadmap to learn java streams
 
-Roadmap to Mastering Java Streams
-Got it! Let's integrate a tutorial section followed by exercises for each level. Here's how we can structure it:
+---
+
+# Roadmap to Mastering Java Streams
 
 ### Level 1: Introduction to Streams
 
-#### Tutorial:
 - **Objective**: Understand what streams are and their benefits over traditional collections.
 - **Content**:
   - Definition of streams and their characteristics (lazy evaluation, functional-style operations).
   - Comparison with traditional collections (lists, arrays).
   - Basic operations like `filter`, `map`, and `collect`.
 
-#### Exercises:
-- Implement basic filtering and mapping operations using streams.
-- Convert existing code that uses traditional collections to use streams and compare results.
-- Reflect on how streams improve readability and maintainability.
+- **Exercises:**
+  - Implement basic filtering and mapping operations using streams.
+  - Convert existing code that uses traditional collections to use streams and compare results.
+  - Reflect on how streams improve readability and maintainability.
 
 ### Level 2: Creating Streams
 
-#### Tutorial:
 - **Objective**: Practice creating streams from different data sources (e.g., collections, arrays).
 - **Content**:
   - Creating streams from lists, arrays, and other data structures (`Stream.of`, `Arrays.stream`).
   - Generating infinite streams and using stream factories.
   - Discussing when to use streams versus traditional iteration.
 
-#### Exercises:
-- Create streams from arrays and lists of different data types.
-- Experiment with generating infinite streams and applying intermediate operations.
-- Convert existing iterative code to use streams and assess the impact on code complexity.
+- **Exercises:**
+  - Create streams from arrays and lists of different data types.
+  - Experiment with generating infinite streams and applying intermediate operations.
+  - Convert existing iterative code to use streams and assess the impact on code complexity.
 
 ### Level 3: Intermediate Operations
 
-#### Tutorial:
 - **Objective**: Implement basic intermediate operations like `filter`, `map`, `flatMap`, `sorted`, and `distinct`.
 - **Content**:
   - Explanation of each intermediate operation with examples.
   - Chaining multiple operations in a stream pipeline.
   - Performance considerations and best practices.
 
-#### Exercises:
-- Implement filtering, mapping, flattening, sorting, and distinct operations using streams.
-- Combine multiple intermediate operations in a single stream pipeline to solve specific problems.
-- Measure and compare performance between different stream operations.
+- **Exercises:**
+  - Implement filtering, mapping, flattening, sorting, and distinct operations using streams.
+  - Combine multiple intermediate operations in a single stream pipeline to solve specific problems.
+  - Measure and compare performance between different stream operations.
 
 ### Level 4: Terminal Operations
 
-#### Tutorial:
 - **Objective**: Learn how to use terminal operations like `collect`, `reduce`, and `forEach`.
 - **Content**:
   - Definition and purpose of terminal operations.
   - Examples of using terminal operations to process stream elements.
   - Discussing when to use each terminal operation based on the desired outcome.
 
-#### Exercises:
-- Practice using terminal operations to collect stream elements into collections and perform reduction operations.
-- Implement `forEach` to perform actions on each element in a stream.
-- Compare the use of `collect`, `reduce`, and `forEach` in different scenarios.
+- **Exercises:**
+  - Practice using terminal operations to collect stream elements into collections and perform reduction operations.
+  - Implement `forEach` to perform actions on each element in a stream.
+  - Compare the use of `collect`, `reduce`, and `forEach` in different scenarios.
 
 ### Level 5: Handling Optional
 
-#### Tutorial:
 - **Objective**: Understand how to use `Optional` with streams for handling null values.
 - **Content**:
   - Introduction to `Optional` and its role in stream operations.
   - Examples of using `Optional` to handle potentially absent values in stream pipelines.
   - Best practices for error-free processing with `Optional`.
 
-#### Exercises:
-- Modify existing stream operations to gracefully handle `Optional` values.
-- Implement error-free processing using `Optional` in stream pipelines.
-- Compare handling `Optional` values with traditional null checks in iterative code.
+- **Exercises:**
+  - Modify existing stream operations to gracefully handle `Optional` values.
+  - Implement error-free processing using `Optional` in stream pipelines.
+  - Compare handling `Optional` values with traditional null checks in iterative code.
 
 ### Level 6: Grouping and Partitioning
 
-#### Tutorial:
 - **Objective**: Explore advanced operations like `groupingBy`, `partitioningBy`, and `mapping`.
 - **Content**:
   - Detailed explanation of `groupingBy` and `partitioningBy` operations with examples.
   - Using `mapping` to transform and collect grouped data.
   - Applications and benefits of advanced grouping and partitioning strategies.
 
-#### Exercises:
-- Group elements by criteria using `groupingBy` and `partitioningBy`.
-- Apply `mapping` to transform grouped data into desired formats.
-- Solve complex grouping and partitioning problems using streams.
+- **Exercises:**
+  - Group elements by criteria using `groupingBy` and `partitioningBy`.
+  - Apply `mapping` to transform grouped data into desired formats.
+  - Solve complex grouping and partitioning problems using streams.
 
 ### Level 7: Parallel Streams
 
-#### Tutorial:
 - **Objective**: Experiment with parallel streams for concurrent processing of data.
 - **Content**:
   - Introduction to parallel streams and their benefits.
   - Differences between sequential and parallel stream processing.
   - Considerations for using parallel streams effectively.
 
-#### Exercises:
-- Convert sequential stream operations to parallel streams and measure performance differences.
-- Identify scenarios where parallel streams provide performance improvements.
-- Compare and analyze the performance of sequential vs. parallel stream processing.
+- **Exercises:**
+  - Convert sequential stream operations to parallel streams and measure performance differences.
+  - Identify scenarios where parallel streams provide performance improvements.
+  - Compare and analyze the performance of sequential vs. parallel stream processing.
 
 ### Level 8: Advanced Stream Operations
 
-#### Tutorial:
 - **Objective**: Master operations like `joining`, `reducing`, and custom collectors.
 - **Content**:
   - Explanation of advanced stream operations (`joining`, `reducing`) with examples.
   - Implementing custom collectors for specific aggregation tasks.
   - Practical applications of advanced stream operations in real-world scenarios.
 
-#### Exercises:
-- Implement `joining`, `reducing`, and custom collectors for complex data aggregation tasks.
-- Combine multiple reduction operations using `reducing` to achieve desired outcomes.
-- Develop and apply custom collectors to streamline data processing using streams.
+- **Exercises:**
+  - Implement `joining`, `reducing`, and custom collectors for complex data aggregation tasks.
+  - Combine multiple reduction operations using `reducing` to achieve desired outcomes.
+  - Develop and apply custom collectors to streamline data processing using streams.
 
 ---
 
